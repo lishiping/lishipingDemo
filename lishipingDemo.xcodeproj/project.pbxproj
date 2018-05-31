@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EA752EE208285B8005E612C /* Person+eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752ED208285B8005E612C /* Person+eat.m */; };
+		1EA752F120828642005E612C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752F020828642005E612C /* Person.m */; };
+		1EA752F720828839005E612C /* Person+eatOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752F620828839005E612C /* Person+eatOther.m */; };
+		1ED6566B1FE6CBEB009F9EE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6566A1FE6CBEB009F9EE3 /* AppDelegate.m */; };
+		1ED6566E1FE6CBEB009F9EE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6566D1FE6CBEB009F9EE3 /* ViewController.m */; };
+		1ED656711FE6CBEB009F9EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED6566F1FE6CBEB009F9EE3 /* Main.storyboard */; };
+		1ED656741FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ED656721FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodeld */; };
+		1ED656761FE6CBEB009F9EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED656751FE6CBEB009F9EE3 /* Assets.xcassets */; };
+		1ED656791FE6CBEB009F9EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED656771FE6CBEB009F9EE3 /* LaunchScreen.storyboard */; };
+		1ED6567C1FE6CBEB009F9EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6567B1FE6CBEB009F9EE3 /* main.m */; };
+		1ED656861FE6CBEB009F9EE3 /* lishipingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED656851FE6CBEB009F9EE3 /* lishipingDemoTests.m */; };
+		1ED656911FE6CBEB009F9EE3 /* lishipingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED656901FE6CBEB009F9EE3 /* lishipingDemoUITests.m */; };
+		813308EE9D1EEF83AAF8818E /* libPods-lishipingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DEA769742DAF1AB03C5BD /* libPods-lishipingDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED656821FE6CBEB009F9EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ED6565E1FE6CBEB009F9EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED656651FE6CBEB009F9EE3;
+			remoteInfo = lishipingDemo;
+		};
+		1ED6568D1FE6CBEB009F9EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ED6565E1FE6CBEB009F9EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED656651FE6CBEB009F9EE3;
+			remoteInfo = lishipingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036E1E89BF34B4D35D347243 /* Pods-lishipingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lishipingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lishipingDemo/Pods-lishipingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA752EC208285B8005E612C /* Person+eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+eat.h"; sourceTree = "<group>"; };
+		1EA752ED208285B8005E612C /* Person+eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+eat.m"; sourceTree = "<group>"; };
+		1EA752EF20828642005E612C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1EA752F020828642005E612C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EA752F520828839005E612C /* Person+eatOther.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+eatOther.h"; sourceTree = "<group>"; };
+		1EA752F620828839005E612C /* Person+eatOther.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+eatOther.m"; sourceTree = "<group>"; };
+		1ED656661FE6CBEB009F9EE3 /* lishipingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lishipingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED656691FE6CBEB009F9EE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ED6566A1FE6CBEB009F9EE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ED6566C1FE6CBEB009F9EE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1ED6566D1FE6CBEB009F9EE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1ED656701FE6CBEB009F9EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ED656731FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lishipingDemo.xcdatamodel; sourceTree = "<group>"; };
+		1ED656751FE6CBEB009F9EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED656781FE6CBEB009F9EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ED6567A1FE6CBEB009F9EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED6567B1FE6CBEB009F9EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ED656811FE6CBEB009F9EE3 /* lishipingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lishipingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED656851FE6CBEB009F9EE3 /* lishipingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lishipingDemoTests.m; sourceTree = "<group>"; };
+		1ED656871FE6CBEB009F9EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED6568C1FE6CBEB009F9EE3 /* lishipingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lishipingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED656901FE6CBEB009F9EE3 /* lishipingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lishipingDemoUITests.m; sourceTree = "<group>"; };
+		1ED656921FE6CBEB009F9EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46DEA769742DAF1AB03C5BD /* libPods-lishipingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lishipingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A85DCD7742C1183B2F4802 /* Pods-lishipingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lishipingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-lishipingDemo/Pods-lishipingDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED656631FE6CBEB009F9EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813308EE9D1EEF83AAF8818E /* libPods-lishipingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED6567E1FE6CBEB009F9EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED656891FE6CBEB009F9EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED6565D1FE6CBEB009F9EE3 = {
+			isa = PBXGroup;
+			children = (
+				1ED656681FE6CBEB009F9EE3 /* lishipingDemo */,
+				1ED656841FE6CBEB009F9EE3 /* lishipingDemoTests */,
+				1ED6568F1FE6CBEB009F9EE3 /* lishipingDemoUITests */,
+				1ED656671FE6CBEB009F9EE3 /* Products */,
+				4BDB57DCABEB256FB80649D0 /* Pods */,
+				21EB5D89B2FE6064E81B3639 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED656671FE6CBEB009F9EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED656661FE6CBEB009F9EE3 /* lishipingDemo.app */,
+				1ED656811FE6CBEB009F9EE3 /* lishipingDemoTests.xctest */,
+				1ED6568C1FE6CBEB009F9EE3 /* lishipingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED656681FE6CBEB009F9EE3 /* lishipingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1ED656691FE6CBEB009F9EE3 /* AppDelegate.h */,
+				1ED6566A1FE6CBEB009F9EE3 /* AppDelegate.m */,
+				1ED6566C1FE6CBEB009F9EE3 /* ViewController.h */,
+				1ED6566D1FE6CBEB009F9EE3 /* ViewController.m */,
+				1EA752EF20828642005E612C /* Person.h */,
+				1EA752F020828642005E612C /* Person.m */,
+				1EA752EC208285B8005E612C /* Person+eat.h */,
+				1EA752ED208285B8005E612C /* Person+eat.m */,
+				1EA752F520828839005E612C /* Person+eatOther.h */,
+				1EA752F620828839005E612C /* Person+eatOther.m */,
+				1ED6566F1FE6CBEB009F9EE3 /* Main.storyboard */,
+				1ED656751FE6CBEB009F9EE3 /* Assets.xcassets */,
+				1ED656771FE6CBEB009F9EE3 /* LaunchScreen.storyboard */,
+				1ED6567A1FE6CBEB009F9EE3 /* Info.plist */,
+				1ED6567B1FE6CBEB009F9EE3 /* main.m */,
+				1ED656721FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodeld */,
+			);
+			path = lishipingDemo;
+			sourceTree = "<group>";
+		};
+		1ED656841FE6CBEB009F9EE3 /* lishipingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ED656851FE6CBEB009F9EE3 /* lishipingDemoTests.m */,
+				1ED656871FE6CBEB009F9EE3 /* Info.plist */,
+			);
+			path = lishipingDemoTests;
+			sourceTree = "<group>";
+		};
+		1ED6568F1FE6CBEB009F9EE3 /* lishipingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ED656901FE6CBEB009F9EE3 /* lishipingDemoUITests.m */,
+				1ED656921FE6CBEB009F9EE3 /* Info.plist */,
+			);
+			path = lishipingDemoUITests;
+			sourceTree = "<group>";
+		};
+		21EB5D89B2FE6064E81B3639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A46DEA769742DAF1AB03C5BD /* libPods-lishipingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BDB57DCABEB256FB80649D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				036E1E89BF34B4D35D347243 /* Pods-lishipingDemo.debug.xcconfig */,
+				B2A85DCD7742C1183B2F4802 /* Pods-lishipingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED656651FE6CBEB009F9EE3 /* lishipingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED656951FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemo" */;
+			buildPhases = (
+				591720F45F6CCCB59BE88D90 /* [CP] Check Pods Manifest.lock */,
+				1ED656621FE6CBEB009F9EE3 /* Sources */,
+				1ED656631FE6CBEB009F9EE3 /* Frameworks */,
+				1ED656641FE6CBEB009F9EE3 /* Resources */,
+				3C89EF053FCF7248EBC50B75 /* [CP] Embed Pods Frameworks */,
+				6F87FD2D484312302D41364A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lishipingDemo;
+			productName = lishipingDemo;
+			productReference = 1ED656661FE6CBEB009F9EE3 /* lishipingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ED656801FE6CBEB009F9EE3 /* lishipingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED656981FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemoTests" */;
+			buildPhases = (
+				1ED6567D1FE6CBEB009F9EE3 /* Sources */,
+				1ED6567E1FE6CBEB009F9EE3 /* Frameworks */,
+				1ED6567F1FE6CBEB009F9EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED656831FE6CBEB009F9EE3 /* PBXTargetDependency */,
+			);
+			name = lishipingDemoTests;
+			productName = lishipingDemoTests;
+			productReference = 1ED656811FE6CBEB009F9EE3 /* lishipingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ED6568B1FE6CBEB009F9EE3 /* lishipingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED6569B1FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemoUITests" */;
+			buildPhases = (
+				1ED656881FE6CBEB009F9EE3 /* Sources */,
+				1ED656891FE6CBEB009F9EE3 /* Frameworks */,
+				1ED6568A1FE6CBEB009F9EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED6568E1FE6CBEB009F9EE3 /* PBXTargetDependency */,
+			);
+			name = lishipingDemoUITests;
+			productName = lishipingDemoUITests;
+			productReference = 1ED6568C1FE6CBEB009F9EE3 /* lishipingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED6565E1FE6CBEB009F9EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "shiping li";
+				TargetAttributes = {
+					1ED656651FE6CBEB009F9EE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1ED656801FE6CBEB009F9EE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1ED656651FE6CBEB009F9EE3;
+					};
+					1ED6568B1FE6CBEB009F9EE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1ED656651FE6CBEB009F9EE3;
+					};
+				};
+			};
+			buildConfigurationList = 1ED656611FE6CBEB009F9EE3 /* Build configuration list for PBXProject "lishipingDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED6565D1FE6CBEB009F9EE3;
+			productRefGroup = 1ED656671FE6CBEB009F9EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED656651FE6CBEB009F9EE3 /* lishipingDemo */,
+				1ED656801FE6CBEB009F9EE3 /* lishipingDemoTests */,
+				1ED6568B1FE6CBEB009F9EE3 /* lishipingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED656641FE6CBEB009F9EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED656791FE6CBEB009F9EE3 /* LaunchScreen.storyboard in Resources */,
+				1ED656761FE6CBEB009F9EE3 /* Assets.xcassets in Resources */,
+				1ED656711FE6CBEB009F9EE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED6567F1FE6CBEB009F9EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED6568A1FE6CBEB009F9EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C89EF053FCF7248EBC50B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lishipingDemo/Pods-lishipingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591720F45F6CCCB59BE88D90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lishipingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F87FD2D484312302D41364A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lishipingDemo/Pods-lishipingDemo-resources.sh",
+				"${PODS_ROOT}/SPCategory/SPCategory/Resource/SPCategory.bundle",
+				"${PODS_ROOT}/SPWebView/SPWebView/SPWebView/Resource/SPWebView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lishipingDemo/Pods-lishipingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED656621FE6CBEB009F9EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA752F120828642005E612C /* Person.m in Sources */,
+				1ED6566E1FE6CBEB009F9EE3 /* ViewController.m in Sources */,
+				1ED656741FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodeld in Sources */,
+				1EA752EE208285B8005E612C /* Person+eat.m in Sources */,
+				1EA752F720828839005E612C /* Person+eatOther.m in Sources */,
+				1ED6567C1FE6CBEB009F9EE3 /* main.m in Sources */,
+				1ED6566B1FE6CBEB009F9EE3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED6567D1FE6CBEB009F9EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED656861FE6CBEB009F9EE3 /* lishipingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED656881FE6CBEB009F9EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED656911FE6CBEB009F9EE3 /* lishipingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ED656831FE6CBEB009F9EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED656651FE6CBEB009F9EE3 /* lishipingDemo */;
+			targetProxy = 1ED656821FE6CBEB009F9EE3 /* PBXContainerItemProxy */;
+		};
+		1ED6568E1FE6CBEB009F9EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED656651FE6CBEB009F9EE3 /* lishipingDemo */;
+			targetProxy = 1ED6568D1FE6CBEB009F9EE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ED6566F1FE6CBEB009F9EE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED656701FE6CBEB009F9EE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ED656771FE6CBEB009F9EE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED656781FE6CBEB009F9EE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED656931FE6CBEB009F9EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ED656941FE6CBEB009F9EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED656961FE6CBEB009F9EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036E1E89BF34B4D35D347243 /* Pods-lishipingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ED656971FE6CBEB009F9EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A85DCD7742C1183B2F4802 /* Pods-lishipingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ED656991FE6CBEB009F9EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lishipingDemo.app/lishipingDemo";
+			};
+			name = Debug;
+		};
+		1ED6569A1FE6CBEB009F9EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lishipingDemo.app/lishipingDemo";
+			};
+			name = Release;
+		};
+		1ED6569C1FE6CBEB009F9EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lishipingDemo;
+			};
+			name = Debug;
+		};
+		1ED6569D1FE6CBEB009F9EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lishipingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lishiping.lishipingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lishipingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED656611FE6CBEB009F9EE3 /* Build configuration list for PBXProject "lishipingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED656931FE6CBEB009F9EE3 /* Debug */,
+				1ED656941FE6CBEB009F9EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED656951FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED656961FE6CBEB009F9EE3 /* Debug */,
+				1ED656971FE6CBEB009F9EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED656981FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED656991FE6CBEB009F9EE3 /* Debug */,
+				1ED6569A1FE6CBEB009F9EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED6569B1FE6CBEB009F9EE3 /* Build configuration list for PBXNativeTarget "lishipingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED6569C1FE6CBEB009F9EE3 /* Debug */,
+				1ED6569D1FE6CBEB009F9EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1ED656721FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1ED656731FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodel */,
+			);
+			currentVersion = 1ED656731FE6CBEB009F9EE3 /* lishipingDemo.xcdatamodel */;
+			path = lishipingDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1ED6565E1FE6CBEB009F9EE3 /* Project object */;
+}

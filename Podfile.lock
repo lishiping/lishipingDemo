@@ -1,0 +1,44 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - SafeData (0.1.2)
+  - SPBaseClass (0.0.2)
+  - SPCategory (0.2.1):
+    - MBProgressHUD (= 1.0.0)
+    - SafeData
+    - SPMacro
+  - SPDebugBar (0.8.0)
+  - SPFastPush (0.4.0)
+  - SPMacro (0.1.2)
+  - SPWebView (0.0.14):
+    - SPWebView/Core (= 0.0.14)
+  - SPWebView/Core (0.0.14):
+    - NJKWebViewProgress (= 0.2.3)
+
+DEPENDENCIES:
+  - SafeData
+  - SPBaseClass
+  - SPCategory
+  - SPDebugBar
+  - SPFastPush
+  - SPMacro
+  - SPWebView
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  SafeData: d654eee95046a2c25ab67dec883977bb6699a83a
+  SPBaseClass: 4b13b0df9b80c52630c8248c0955fd3b26d95af6
+  SPCategory: 9289aa0226ae9e99d85eb686d3c18d5a4a60507c
+  SPDebugBar: c940ed2b44cad003a765e4f4c8a94891367d08b5
+  SPFastPush: 9708ae03fe8b31ce7a8120386396f3a02b16e2af
+  SPMacro: 7922489e8a3d1d9c2cd2db12602fde41e183b820
+  SPWebView: 0503106fe6e5346b7a8aa0a81db52e61645caf74
+
+PODFILE CHECKSUM: bcd74aa605d38f8927eaad535ea39c65f04c3c19
+
+COCOAPODS: 1.3.1
